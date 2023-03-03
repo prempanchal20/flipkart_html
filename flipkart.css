@@ -22,3 +22,11 @@ nav div.search{
 .carousel:hover {
     display: block;
 }
+
+.search-icon{
+    margin-left: -1px;
+}
+
+.image{
+    height: 170px;
+}

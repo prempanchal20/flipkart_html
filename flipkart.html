@@ -14,7 +14,7 @@
 
 <body>
 <!-- Navbar -->
-<nav class="bg-primary navbar navbar-expand-lg">
+<nav class="bg-primary navbar navbar-expand-lg sticky-top">
     <div class="container w-100">
             <div class="logo d-flex align-items-center w-100">
                 <div class="title">
@@ -24,10 +24,10 @@
             
 
                 <div class="search m-2 d-flex shadow">    
-                    <form class="d-inline-block w-100" role="search">
+                    <form class=" w-100" role="search">
                         <input class="form-control rounded-0 w-100" type="search" placeholder="Search for products, brands and more" aria-label="Search">
                     </form> 
-                    <div class="d-flex align-item-center search-icon bg-light p-1 pt-2 pe-2">
+                        <div class="d-flex align-item-center search-icon bg-light p-1 pt-2 pe-2">
                         <i class="bi bi-search text-primary"></i>                 
                     </div>
                 </div>
@@ -111,7 +111,7 @@
 </section>
 
 <!-- Carousel -->
-<div id="carousel" class="carousel slide" data-interval="500">
+<div id="carousel" class="carousel slide">
     <div class="container carousel-inner justify-content-center mt-2 position-relative">
         <div class="carousel-item active">
             <img src="Images/carosel1.webp" class="d-block w-100" alt="carousel1">
@@ -141,76 +141,76 @@
         <div class="main-seaction-title d-flex justify-content-between">
             <div class="timer d-flex">
                 <h4>Deals of the Day <i class="bi bi-stopwatch text-danger"></i></h4>
-                <p class="fs-5 fw-light">22:07:36 Left</p>
+                <p class="fs-5 fw-light text-muted">22:07:36 Left</p>
             </div>
             <button type="button" class="btn btn-primary m-lg-1">VIEW ALL</button>
         </div>
 
         <div class="d-flex">
             <div class="card" style="border: 0rem;">
-                <div class="image w-auto m-auto d-flex align-items-center h-50">
+                <div class="image w-auto m-auto d-flex align-items-center">
                     <img src="Images/watch.webp" class="card-img-top w-50 m-auto" alt="watch">
                 </div>
                 <div class="card-body">
-                    <p class="card-text">Casio, Fastrack, Sonata</p>
-                    <p class="text-success">upto 80% + Extra 10% off</p>
-                    <p>Knockout Deals!</p>
+                    <p class="card-text">Casio, Fastrack</p>
+                    <p class="text-success">upto 80%</p>
+                    <p class="text-muted">Knockout Deals!</p>
                 </div>  
             </div>
 
             <div class="card" style=" border: 0rem; ">
-                <div class="image w-auto m-auto d-flex align-items-center h-50">
+                <div class="image w-auto m-auto d-flex align-items-center ">
                     <img src="Images/Temple.webp" class="card-img-top w-50 m-auto" alt="watch">
                 </div>
                 <div class="card-body">
-                    <p class="card-text">Home Temples and more</p>
+                    <p class="card-text">Home Temples</p>
                     <p class="text-success">Extra 10% off</p>
-                    <p>Space Saving Furniture</p>
+                    <p class="text-muted">Furniture</p>
                 </div>                   
             </div>
 
 
             <div class="card" style="border: 0rem;">
-                <div class="image w-auto m-auto d-flex align-items-center h-50">
+                <div class="image w-auto m-auto d-flex align-items-center ">
                     <img src="Images/tablates.webp" class="card-img-top w-50 m-auto" alt="watch">
                 </div>
                 <div class="card-body"> 
                     <p class="card-text">Premium Tablets</p>
                     <p class="text-success">Extra 10% off</p>
-                    <p>For all Top Models</p>
+                    <p class="text-muted">For all Top Models</p>
                 </div>                   
             </div>
 
             <div class="card" style=" border: 0rem;">
-                <div class="image w-auto m-auto d-flex align-items-center h-50">
+                <div class="image w-auto m-auto d-flex align-items-center ">
                     <img src="Images/home-decore.webp" class="card-img-top w-50 m-auto" alt="watch">
                 </div>
                 <div class="card-body">
-                    <p class="card-text">Best of Home Decor</p>
+                    <p class="card-text">Home Decor</p>
                     <p class="text-success">From ₹79</p>
-                    <p>Lowest Price Ever</p>
+                    <p class="text-muted">Lowest Price Ever</p>
                 </div>                   
             </div>
 
             <div class="card" style=" border: 0rem;">
-                <div class="image w-auto m-auto d-flex align-items-center h-50">
+                <div class="image w-auto m-auto d-flex align-items-center ">
                     <img src="Images/mobile1.webp" class="card-img-top w-50 m-auto" alt="watch">
                 </div>
                 <div class="card-body">
                     <p class="card-text">Mobile Phones</p>
                     <p class="text-success">Flat ₹830 off</p>
-                    <p>Now ₹999 only</p>
+                    <p class="text-muted">Now ₹999 only</p>
                 </div>                   
             </div>
 
             <div class="card" style=" border: 0rem;">
-                <div class="image w-auto m-auto d-flex align-items-center h-50">
+                <div class="image w-auto m-auto d-flex align-items-center ">
                     <img src="Images/water-bottles.webp" class="card-img-top w-50 m-auto" alt="watch">
                 </div>
                 <div class="card-body">
-                    <p class="card-text"></p>
+                    <p class="card-text">Water bottle</p>
                     <p class="text-success">Flat ₹830 off</p>
-                    <p>Now ₹999 only</p>
+                    <p class="text-muted">Now ₹999 only</p>
                 </div>                   
             </div>
         </div>
@@ -228,8 +228,9 @@
     <div class="d-flex w-100 justify-content-between">
     <div class="view-all shadow">
         <div class="main-seaction-title d-flex justify-content-between">
-            <div class="timer d-flex">
-                <h4>Books and Music Instruments</h4>
+            <div class="timer">
+                <h4>Music Instruments</h4>
+                <p class="text-muted">Shop Now!</p>
             </div>
         </div>
 
@@ -239,9 +240,9 @@
                     <img src="Images/harmonium.webp" class="card-img-top w-50 m-auto" alt="watch">
                 </div>
                 <div class="card-body">
-                    <p class="card-text">Casio, Fastrack, Sonata</p>
-                    <p class="text-success">upto 80% + Extra 10% off</p>
-                    <p>Knockout Deals!</p>
+                    <p class="card-text">Harmonium</p>
+                    <p class="text-success">upto 60%</p>
+                    <p class="text-muted">Shop Now!</p>
                 </div>  
             </div>
 
@@ -250,9 +251,9 @@
                     <img src="Images/flutes.webp" class="card-img-top w-50 m-auto" alt="watch">
                 </div>
                 <div class="card-body">
-                    <p class="card-text">Home Temples and more</p>
-                    <p class="text-success">Extra 10% off</p>
-                    <p>Space Saving Furniture</p>
+                    <p class="card-text">Flutes</p>
+                    <p class="text-success">Upto 80% off</p>
+                    <p class="text-muted">Shop Now!</p>
                 </div>                   
             </div>
 
@@ -262,9 +263,9 @@
                     <img src="Images/guitar.webp" class="card-img-top w-50 m-auto" alt="watch">
                 </div>
                 <div class="card-body"> 
-                    <p class="card-text">Premium Tablets</p>
-                    <p class="text-success">Extra 10% off</p>
-                    <p>For all Top Models</p>
+                    <p class="card-text">Acoustic Guitars</p>
+                    <p class="text-success">Starting ₹1799</p>
+                    <p class="text-muted">Juarez, Revel</p>
                 </div>                   
             </div>
 
@@ -273,9 +274,9 @@
                     <img src="Images/musical-accesories.webp" class="card-img-top w-50 m-auto" alt="watch">
                 </div>
                 <div class="card-body">
-                    <p class="card-text">Best of Home Decor</p>
-                    <p class="text-success">From ₹79</p>
-                    <p>Lowest Price Ever</p>
+                    <p class="card-text">Accessories</p>
+                    <p class="text-success">Upto 80% off</p>
+                    <p class="text-muted">Shop Now!</p>
                 </div>                   
             </div>
 
@@ -284,9 +285,9 @@
                     <img src="Images/microphone-accessories.webp" class="card-img-top w-50 m-auto" alt="watch">
                 </div>
                 <div class="card-body">
-                    <p class="card-text">Mobile Phones</p>
+                    <p class="card-text">Microphone</p>
                     <p class="text-success">Flat ₹830 off</p>
-                    <p>Now ₹999 only</p>
+                    <p class="text-muted">Now ₹999 only</p>
                 </div>                   
             </div>
 
@@ -295,12 +296,11 @@
                     <img src="Images/accesories.webp" class="card-img-top w-50 m-auto" alt="watch">
                 </div>
                 <div class="card-body">
-                    <p class="card-text">Water Bottles</p>
-                    <p class="text-success">Flat ₹830 off</p>
-                    <p>Now ₹999 only</p>
+                    <p class="card-text">Instruments</p>
+                    <p class="text-success">Upto 10% off</p>
+                    <p class="text-muted">Now ₹999 only</p>
                 </div>                   
             </div>
-
         </div>
     </div>
 </div>
@@ -322,9 +322,9 @@
                     <img src="Images/holi1.webp" class="card-img-top w-50 m-auto" alt="watch">
                 </div>
                 <div class="card-body">
-                    <p class="card-text">Casio, Fastrack, Sonata</p>
-                    <p class="text-success">upto 80% + Extra 10% off</p>
-                    <p>Knockout Deals!</p>
+                    <p class="card-text">Colours</p>
+                    <p class="text-success">upto 80%</p>
+                    <p class="text-muted">Knockout Deals!</p>
                 </div>  
             </div>
 
@@ -333,9 +333,9 @@
                     <img src="Images/holi2.webp" class="card-img-top w-50 m-auto" alt="watch">
                 </div>
                 <div class="card-body">
-                    <p class="card-text">Home Temples and more</p>
+                    <p class="card-text">Gulal</p>
                     <p class="text-success">Extra 10% off</p>
-                    <p>Space Saving Furniture</p>
+                    <p class="text-muted">Natural Colours</p>
                 </div>                   
             </div>
 
@@ -345,9 +345,9 @@
                     <img src="Images/holi3.webp" class="card-img-top w-50 m-auto" alt="watch">
                 </div>
                 <div class="card-body"> 
-                    <p class="card-text">Premium Tablets</p>
+                    <p class="card-text">Baloons</p>
                     <p class="text-success">Extra 10% off</p>
-                    <p>For all Top Models</p>
+                    <p class="text-muted">For all Baloons</p>
                 </div>                   
             </div>
 
@@ -356,9 +356,9 @@
                     <img src="Images/holi4.webp" class="card-img-top w-50 m-auto" alt="watch">
                 </div>
                 <div class="card-body">
-                    <p class="card-text">Best of Home Decor</p>
+                    <p class="card-text">Holi</p>
                     <p class="text-success">From ₹79</p>
-                    <p>Lowest Price Ever</p>
+                    <p class="text-muted">Lowest Price Ever</p>
                 </div>                   
             </div>
 
@@ -367,9 +367,9 @@
                     <img src="Images/holi5.webp" class="card-img-top w-50 m-auto" alt="watch">
                 </div>
                 <div class="card-body">
-                    <p class="card-text">Mobile Phones</p>
+                    <p class="card-text">Baloons Blower</p>
                     <p class="text-success">Flat ₹830 off</p>
-                    <p>Now ₹999 only</p>
+                    <p class="text-muted">Now ₹999 only</p>
                 </div>                   
             </div>
 
@@ -378,15 +378,14 @@
                     <img src="Images/holi6.webp" class="card-img-top w-50 m-auto" alt="watch">
                 </div>
                 <div class="card-body">
-                    <p class="card-text">Water Bottles</p>
+                    <p class="card-text">Color Removal</p>
                     <p class="text-success">Flat ₹830 off</p>
-                    <p>Now ₹999 only</p>
+                    <p class="text-muted">Now ₹999 only</p>
                 </div>                   
             </div>
-
         </div>
     </div>
 </div>
-</section>
+</section>  
 </body>
 </html>

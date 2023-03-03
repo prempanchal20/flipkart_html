@@ -1,0 +1,34 @@
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+nav div.search{
+    flex-grow: 0.5;
+}
+/* 
+.search-icon{
+    margin-left: -1px;
+} */
+
+/* .search-icon svg{
+    margin-top: 15px;
+    margin: auto;
+}
+
+.cart svg{
+    margin-top: 15px;
+    margin: auto;
+} */
+
+.dropdown-menu {
+    left: -58px !important;
+}
+
+.card{
+    width: 14rem; 
+    border: 0rem !important;
+}
+
+.view-all{
+    width: 80%;
+}

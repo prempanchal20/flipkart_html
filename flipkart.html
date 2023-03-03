@@ -14,46 +14,46 @@
 
 <body>
 <!-- Navbar -->
-    <nav class="bg-primary navbar navbar-expand-lg">
-        <div class="container w-100">
-                <div class="logo d-flex align-items-center w-100">
-                    <div class="title">
-                        <img width="75" src="Images/flipkart_logo.png" alt="Flipkart" title="Flipkart" class="flipkart d-block m-0 p-0">
-                        <span class="m-0 p-0 fst-italic text-white">Explore<span class="text-warning m-0 p-0">Plus <img width="10" src="Images/plus.png" alt="Flipkart" title="Flipkart" class="flipkart d-relative"></span></span>
+<nav class="bg-primary navbar navbar-expand-lg">
+    <div class="container w-100">
+            <div class="logo d-flex align-items-center w-100">
+                <div class="title">
+                    <img width="75" src="Images/flipkart_logo.png" alt="Flipkart" title="Flipkart" class="flipkart d-block m-0 p-0">
+                    <span class="m-0 p-0 fst-italic text-white">Explore<span class="text-warning m-0 p-0">Plus<img width="10" src="Images/plus.png" alt="Flipkart" title="Flipkart" class="flipkart d-relative"></span></span>
+                </div>
+            
+
+                <div class="search m-2 d-flex shadow">    
+                    <form class="d-inline-block w-100" role="search">
+                        <input class="form-control rounded-0 w-100" type="search" placeholder="Search for products, brands and more" aria-label="Search">
+                    </form> 
+                    <div class="d-flex align-item-center search-icon bg-light p-1 pt-2 pe-2">
+                        <i class="bi bi-search text-primary"></i>                 
                     </div>
-                
+                </div>
 
-                    <div class="search m-2 d-flex shadow">    
-                        <form class="d-inline-block w-100" role="search">
-                            <input class="form-control rounded-0 w-100" type="search" placeholder="Search for products, brands and more" aria-label="Search">
-                        </form> 
-                        <div class="d-flex align-item-center search-icon bg-light p-1 pt-2 pe-2">
-                            <i class="bi bi-search text-primary"></i>                 
-                        </div>
-                    </div>
+            <div class="login d-flex justify-content-center align-items-center gap-3 ms-4">
+                <button class="btn btn-primary text-bg-light text-primary rounded-0" type="button">Login </button>
+                <p class="text-white m-auto" style="width: 8rem;">Become a Seller</p>
 
-                <div class="login d-flex justify-content-center align-items-center gap-3 ms-4">
-                    <button class="btn btn-primary text-bg-light text-primary rounded-0" type="button">Login </button>
-                    <p class="text-white m-auto" style="width: 8rem;">Become a Seller</p>
-
-                    <ul class="dropdown text-white m-auto">
-                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">More</a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                          <li><a class="dropdown-item" href="#"><i class="bi bi-bell-fill m-sm-2 text-primary"></i>Notification Preference</a></li>
-                          <li><a class="dropdown-item" href="#"><i class="bi bi-question-square-fill m-sm-2 text-primary"></i>24*7 Customer Care</a></li>
-                          <li><a class="dropdown-item" href="#"><i class="bi bi-arrow-up-right m-sm-2 text-primary"></i>Advertise</a></li>
-                          <li><a class="dropdown-item" href="#"><i class="bi bi-download m-sm-2 text-primary"></i>Download App</a></li>
-                        </ul>
+                <ul class="dropdown text-white m-auto">
+                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">More</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#"><i class="bi bi-bell-fill m-sm-2 text-primary"></i>Notification Preference</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="bi bi-question-square-fill m-sm-2 text-primary"></i>24*7 Customer Care</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="bi bi-arrow-up-right m-sm-2 text-primary"></i>Advertise</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="bi bi-download m-sm-2 text-primary"></i>Download App</a></li>
                     </ul>
-                </div>
-                <div class="cart ms-5 gap-2">
-                        <i class="bi bi-cart-fill text-white"></i>
-                    <p class="text-white m-auto d-inline ms-1" style="width: 8rem;">Cart</p>
-                </div>
-                </div>            
+                </ul>
             </div>
-        </div> 
-    </nav>
+            <div class="cart ms-5 gap-2">
+                    <i class="bi bi-cart-fill text-white"></i>
+                <p class="text-white m-auto d-inline ms-1" style="width: 8rem;">Cart</p>
+            </div>
+            </div>            
+        </div>
+    </div> 
+</nav>
 
 <!-- Menubar -->
 <section class="shadow p-3 bg-body rounded"> 
@@ -111,31 +111,32 @@
 </section>
 
 <!-- Carousel -->
-<div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
-    <div class="container carousel-inner justify-content-center mt-2">
+<div id="carousel" class="carousel slide" data-interval="500">
+    <div class="container carousel-inner justify-content-center mt-2 position-relative">
         <div class="carousel-item active">
-        <img src="Images/carosel1.webp" class="d-block w-100" alt="carousel1">
+            <img src="Images/carosel1.webp" class="d-block w-100" alt="carousel1">
         </div>
         <div class="carousel-item">
-        <img src="Images/carosel2.webp" class="d-block w-100" alt="carousel2">
+            <img src="Images/carosel2.webp" class="d-block w-100" alt="carousel2">
         </div>
         <div class="carousel-item">
-        <img src="Images/carosel3.webp" class="d-block w-100" alt="carousel3">
+            <img src="Images/carosel3.webp" class="d-block w-100" alt="carousel3">
         </div>
+
+        <button class="carousel-control-prev p-5" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
 </div>
 
 <!-- Main Section-->
-<section class="main-section container mt-3 ">
-    <div class="d-flex w-100 justify-content-between">
+<section class="main-section container mt-3">
+    <div class="d-flex w-100 justify-content-center">
     <div class="view-all shadow">
         <div class="main-seaction-title d-flex justify-content-between">
             <div class="timer d-flex">
@@ -146,8 +147,8 @@
         </div>
 
         <div class="d-flex">
-            <div class="card " style="width: 14rem; border: 0rem;">
-                <div class="image w-auto m-auto d-flex align-items-center">
+            <div class="card" style="border: 0rem;">
+                <div class="image w-auto m-auto d-flex align-items-center h-50">
                     <img src="Images/watch.webp" class="card-img-top w-50 m-auto" alt="watch">
                 </div>
                 <div class="card-body">
@@ -157,51 +158,61 @@
                 </div>  
             </div>
 
-            <div class="card" style="width: 14rem; border: 0rem;">
-                <div class="image w-auto m-auto d-flex align-items-center">
-                    <img src="Images/watch.webp" class="card-img-top w-50 m-auto" alt="watch">
+            <div class="card" style=" border: 0rem; ">
+                <div class="image w-auto m-auto d-flex align-items-center h-50">
+                    <img src="Images/Temple.webp" class="card-img-top w-50 m-auto" alt="watch">
                 </div>
                 <div class="card-body">
-                    <p class="card-text">Tablates and more</p>
+                    <p class="card-text">Home Temples and more</p>
+                    <p class="text-success">Extra 10% off</p>
+                    <p>Space Saving Furniture</p>
+                </div>                   
+            </div>
+
+
+            <div class="card" style="border: 0rem;">
+                <div class="image w-auto m-auto d-flex align-items-center h-50">
+                    <img src="Images/tablates.webp" class="card-img-top w-50 m-auto" alt="watch">
+                </div>
+                <div class="card-body"> 
+                    <p class="card-text">Premium Tablets</p>
                     <p class="text-success">Extra 10% off</p>
                     <p>For all Top Models</p>
                 </div>                   
             </div>
 
-
-            <div class="card" style="width: 14rem; border: 0rem;">
-                <div class="image w-auto m-auto d-flex align-items-center">
-                    <img src="Images/watch.webp" class="card-img-top w-50 m-auto" alt="watch">
+            <div class="card" style=" border: 0rem;">
+                <div class="image w-auto m-auto d-flex align-items-center h-50">
+                    <img src="Images/home-decore.webp" class="card-img-top w-50 m-auto" alt="watch">
                 </div>
-                <div class="card-body"> 
-                    <p class="card-text">Best of Home Decore</p>
-                    <p class="text-success">Extra 10% off</p>
+                <div class="card-body">
+                    <p class="card-text">Best of Home Decor</p>
+                    <p class="text-success">From ₹79</p>
                     <p>Lowest Price Ever</p>
                 </div>                   
             </div>
 
-            <div class="card" style="width: 14rem; border: 0rem;">
-                <div class="image w-auto m-auto d-flex align-items-center">
-                    <img src="Images/watch.webp" class="card-img-top w-50 m-auto" alt="watch">
+            <div class="card" style=" border: 0rem;">
+                <div class="image w-auto m-auto d-flex align-items-center h-50">
+                    <img src="Images/mobile1.webp" class="card-img-top w-50 m-auto" alt="watch">
                 </div>
                 <div class="card-body">
-                    <p class="card-text">Metronaut, Provogue &..</p>
-                    <p class="text-success">From ₹249 + Extra 10% Off & More</p>
-                    <p>Jackets, Dresses and More</p>
-                </div>                   
-            </div>
-
-            <div class="card" style="width: 14rem; border: 0rem;">
-                <div class="image w-auto m-auto d-flex align-items-center">
-                    <img src="Images/watch.webp" class="card-img-top w-50 m-auto" alt="watch">
-                </div>
-                <div class="card-body">
-                    <p class="card-text">Lava A1500</p>
+                    <p class="card-text">Mobile Phones</p>
                     <p class="text-success">Flat ₹830 off</p>
                     <p>Now ₹999 only</p>
                 </div>                   
             </div>
 
+            <div class="card" style=" border: 0rem;">
+                <div class="image w-auto m-auto d-flex align-items-center h-50">
+                    <img src="Images/water-bottles.webp" class="card-img-top w-50 m-auto" alt="watch">
+                </div>
+                <div class="card-body">
+                    <p class="card-text"></p>
+                    <p class="text-success">Flat ₹830 off</p>
+                    <p>Now ₹999 only</p>
+                </div>                   
+            </div>
         </div>
     </div>
     <div class="advertise d-flex justify-content-between">
@@ -213,146 +224,166 @@
 </section>
 
 <!-- 2nd Main Section -->
-<section class="main-section container w-100 mt-3 ">
+<section class="main-section container mt-3 ">
     <div class="d-flex w-100 justify-content-between">
     <div class="view-all shadow">
         <div class="main-seaction-title d-flex justify-content-between">
-            <div class="title ">
-                <h4>Books and Music Insturments</h4>
-                <span>Shop Now!</span>
+            <div class="timer d-flex">
+                <h4>Books and Music Instruments</h4>
             </div>
         </div>
 
-
         <div class="d-flex">
-            <div class="card " style="width: 14rem; border: 0rem;">
-                <div class="image w-auto m-auto d-flex align-items-center">
-                    <img src="Images/watch.webp" class="card-img-top w-50 m-auto" alt="watch">
+            <div class="card" style="border: 0rem;">
+                <div class="image w-auto m-auto d-flex align-items-center h-50">
+                    <img src="Images/harmonium.webp" class="card-img-top w-50 m-auto" alt="watch">
                 </div>
                 <div class="card-body">
-                  <p class="card-text">Casio, Fastrack, Sonata</p>
-                  <p class="text-success">upto 80% + Extra 10% off</p>
-                  <p>Knockout Deals!</p>
+                    <p class="card-text">Casio, Fastrack, Sonata</p>
+                    <p class="text-success">upto 80% + Extra 10% off</p>
+                    <p>Knockout Deals!</p>
                 </div>  
             </div>
 
-            <div class="card" style="width: 14rem; border: 0rem;">
-                <div class="image w-auto m-auto d-flex align-items-center">
-                    <img src="Images/watch.webp" class="card-img-top w-50 m-auto" alt="watch">
+            <div class="card" style=" border: 0rem; ">
+                <div class="image w-auto m-auto d-flex align-items-center h-50">
+                    <img src="Images/flutes.webp" class="card-img-top w-50 m-auto" alt="watch">
                 </div>
                 <div class="card-body">
-                    <p class="card-text">Tablates and more</p>
+                    <p class="card-text">Home Temples and more</p>
+                    <p class="text-success">Extra 10% off</p>
+                    <p>Space Saving Furniture</p>
+                </div>                   
+            </div>
+
+
+            <div class="card" style="border: 0rem;">
+                <div class="image w-auto m-auto d-flex align-items-center h-50">
+                    <img src="Images/guitar.webp" class="card-img-top w-50 m-auto" alt="watch">
+                </div>
+                <div class="card-body"> 
+                    <p class="card-text">Premium Tablets</p>
                     <p class="text-success">Extra 10% off</p>
                     <p>For all Top Models</p>
                 </div>                   
             </div>
 
-
-            <div class="card" style="width: 14rem; border: 0rem;">
-                <div class="image w-auto m-auto d-flex align-items-center">
-                    <img src="Images/watch.webp" class="card-img-top w-50 m-auto" alt="watch">
+            <div class="card" style=" border: 0rem;">
+                <div class="image w-auto m-auto d-flex align-items-center h-50">
+                    <img src="Images/musical-accesories.webp" class="card-img-top w-50 m-auto" alt="watch">
                 </div>
-                <div class="card-body"> 
-                    <p class="card-text">Best of Home Decore</p>
-                    <p class="text-success">Extra 10% off</p>
+                <div class="card-body">
+                    <p class="card-text">Best of Home Decor</p>
+                    <p class="text-success">From ₹79</p>
                     <p>Lowest Price Ever</p>
                 </div>                   
             </div>
 
-            <div class="card" style="width: 14rem; border: 0rem;">
-                <div class="image w-auto m-auto d-flex align-items-center">
-                    <img src="Images/watch.webp" class="card-img-top w-50 m-auto" alt="watch">
+            <div class="card" style=" border: 0rem;">
+                <div class="image w-auto m-auto d-flex align-items-center h-50">
+                    <img src="Images/microphone-accessories.webp" class="card-img-top w-50 m-auto" alt="watch">
                 </div>
                 <div class="card-body">
-                    <p class="card-text">Metronaut, Provogue &..</p>
-                    <p class="text-success">From ₹249 + Extra 10% Off & More</p>
-                    <p>Jackets, Dresses and More</p>
-                </div>                   
-            </div>
-
-            <div class="card" style="width: 14rem; border: 0rem;">
-                <div class="image w-auto m-auto d-flex align-items-center">
-                    <img src="Images/watch.webp" class="card-img-top w-50 m-auto" alt="watch">
-                </div>
-                <div class="card-body">
-                    <p class="card-text">Lava A1500</p>
+                    <p class="card-text">Mobile Phones</p>
                     <p class="text-success">Flat ₹830 off</p>
                     <p>Now ₹999 only</p>
                 </div>                   
             </div>
+
+            <div class="card" style=" border: 0rem;">
+                <div class="image w-auto m-auto d-flex align-items-center h-50">
+                    <img src="Images/accesories.webp" class="card-img-top w-50 m-auto" alt="watch">
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Water Bottles</p>
+                    <p class="text-success">Flat ₹830 off</p>
+                    <p>Now ₹999 only</p>
+                </div>                   
+            </div>
+
         </div>
     </div>
 </div>
 </section>
 
 <!-- 3rd Main Section -->
-<section class="main-section container w-100 mt-3 ">
+<section class="main-section container mt-3 ">
     <div class="d-flex w-100 justify-content-between">
     <div class="view-all shadow">
         <div class="main-seaction-title d-flex justify-content-between">
-            <div class="title ">
-                <h4>Books and Music Insturments</h4>
-                <span>Shop Now!</span>
+            <div class="timer d-flex">
+                <h4>Holi Essentials </h4>
             </div>
         </div>
 
-
         <div class="d-flex">
-            <div class="card " style="width: 14rem; border: 0rem;">
-                <div class="image w-auto m-auto d-flex align-items-center">
-                    <img src="Images/watch.webp" class="card-img-top w-50 m-auto" alt="watch">
+            <div class="card" style="border: 0rem;">
+                <div class="image w-auto m-auto d-flex align-items-center h-50">
+                    <img src="Images/holi1.webp" class="card-img-top w-50 m-auto" alt="watch">
                 </div>
                 <div class="card-body">
-                  <p class="card-text">Casio, Fastrack, Sonata</p>
-                  <p class="text-success">upto 80% + Extra 10% off</p>
-                  <p>Knockout Deals!</p>
+                    <p class="card-text">Casio, Fastrack, Sonata</p>
+                    <p class="text-success">upto 80% + Extra 10% off</p>
+                    <p>Knockout Deals!</p>
                 </div>  
             </div>
 
-            <div class="card" style="width: 14rem; border: 0rem;">
-                <div class="image w-auto m-auto d-flex align-items-center">
-                    <img src="Images/watch.webp" class="card-img-top w-50 m-auto" alt="watch">
+            <div class="card" style=" border: 0rem; ">
+                <div class="image w-auto m-auto d-flex align-items-center h-50">
+                    <img src="Images/holi2.webp" class="card-img-top w-50 m-auto" alt="watch">
                 </div>
                 <div class="card-body">
-                    <p class="card-text">Tablates and more</p>
+                    <p class="card-text">Home Temples and more</p>
+                    <p class="text-success">Extra 10% off</p>
+                    <p>Space Saving Furniture</p>
+                </div>                   
+            </div>
+
+
+            <div class="card" style="border: 0rem;">
+                <div class="image w-auto m-auto d-flex align-items-center h-50">
+                    <img src="Images/holi3.webp" class="card-img-top w-50 m-auto" alt="watch">
+                </div>
+                <div class="card-body"> 
+                    <p class="card-text">Premium Tablets</p>
                     <p class="text-success">Extra 10% off</p>
                     <p>For all Top Models</p>
                 </div>                   
             </div>
 
-
-            <div class="card" style="width: 14rem; border: 0rem;">
-                <div class="image w-auto m-auto d-flex align-items-center">
-                    <img src="Images/watch.webp" class="card-img-top w-50 m-auto" alt="watch">
+            <div class="card" style=" border: 0rem;">
+                <div class="image w-auto m-auto d-flex align-items-center h-50">
+                    <img src="Images/holi4.webp" class="card-img-top w-50 m-auto" alt="watch">
                 </div>
-                <div class="card-body"> 
-                    <p class="card-text">Best of Home Decore</p>
-                    <p class="text-success">Extra 10% off</p>
+                <div class="card-body">
+                    <p class="card-text">Best of Home Decor</p>
+                    <p class="text-success">From ₹79</p>
                     <p>Lowest Price Ever</p>
                 </div>                   
             </div>
 
-            <div class="card" style="width: 14rem; border: 0rem;">
-                <div class="image w-auto m-auto d-flex align-items-center">
-                    <img src="Images/watch.webp" class="card-img-top w-50 m-auto" alt="watch">
+            <div class="card" style=" border: 0rem;">
+                <div class="image w-auto m-auto d-flex align-items-center h-50">
+                    <img src="Images/holi5.webp" class="card-img-top w-50 m-auto" alt="watch">
                 </div>
                 <div class="card-body">
-                    <p class="card-text">Metronaut, Provogue &..</p>
-                    <p class="text-success">From ₹249 + Extra 10% Off & More</p>
-                    <p>Jackets, Dresses and More</p>
-                </div>                   
-            </div>
-
-            <div class="card" style="width: 14rem; border: 0rem;">
-                <div class="image w-auto m-auto d-flex align-items-center">
-                    <img src="Images/watch.webp" class="card-img-top w-50 m-auto" alt="watch">
-                </div>
-                <div class="card-body">
-                    <p class="card-text">Lava A1500</p>
+                    <p class="card-text">Mobile Phones</p>
                     <p class="text-success">Flat ₹830 off</p>
                     <p>Now ₹999 only</p>
                 </div>                   
             </div>
+
+            <div class="card" style=" border: 0rem;">
+                <div class="image w-auto m-auto d-flex align-items-center h-50">
+                    <img src="Images/holi6.webp" class="card-img-top w-50 m-auto" alt="watch">
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Water Bottles</p>
+                    <p class="text-success">Flat ₹830 off</p>
+                    <p>Now ₹999 only</p>
+                </div>                   
+            </div>
+
         </div>
     </div>
 </div>

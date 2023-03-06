@@ -1,15 +1,13 @@
-.dropdown:hover .dropdown-menu{
-    display: block;
-}
-*{
-    overflow-x: hidden;
-}
 nav div.search{
     flex-grow: 0.5;
 }
 
 .dropdown-menu {
     left: -58px !important;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
 }
 
 .card{
@@ -34,9 +32,5 @@ nav div.search{
 }
 
 .cart{
-    min-width: 50px;
-}
-
-.{
     min-width: 50px;
 }

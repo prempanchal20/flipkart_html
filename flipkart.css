@@ -1,36 +1,110 @@
-nav div.search{
-    flex-grow: 0.5;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+nav div.search {
+  flex-grow: 0.5;
+}
+
+.navbar-toggler {
+  left: 2px;
 }
 
 .dropdown-menu {
-    left: -58px !important;
+  left: -58px !important;
 }
 
-.dropdown:hover .dropdown-menu{
-    display: block;
+.dropdown:hover .dropdown-menu {
+  display: block;
 }
 
-.card{
-    width: 14rem; 
-    border: 0rem !important;
+.form-control {
+  opacity: 0.3;
 }
-
-.view-all{
-    width: 80%;
+.card {
+  width: 14rem;
+  border: 0rem !important;
 }
 
 .carousel:hover {
-    display: block;
+  display: block;
 }
 
-.search-icon{
-    margin-left: -1px;
+.search-icon {
+  margin-left: -1px;
 }
 
-.image{
-    height: 170px;
+.login-btn {
+  width: 121px;
+  border: 0;
+  padding: 5px 10px;
 }
 
-.cart{
-    min-width: 50px;
+.image {
+  height: 170px;
+}
+
+.cart {
+  min-width: 50px;
+}
+
+.deal-section {
+  width: 70em;
+}
+
+.deals-card {
+  width: 200px !important;
+  /* padding: 20px; */
+  text-align: center;
+}
+
+.deals-card .card-body p {
+  margin: 0;
+}
+
+.deal-section .deals-section-inner {
+  width: 66em;
+}
+
+@media only screen and (max-width: 415px) {
+  .navbar {
+    min-height: 120px;
+  }
+  nav div.search {
+    position: relative;
+    top: 40px;
+    left: 0px;
+    width: 100%;
+  }
+  .title {
+    top: -15px;
+    left: 72px;
+    position: absolute;
+  }
+  .navbar-collapse {
+    position: absolute;
+    background-color: #2874f0;
+    top: -35px;
+    width: 110%;
+    padding: 20px;
+    z-index: 2;
+  }
+  .login {
+    flex-direction: column;
+  }
+  .navbar-toggler {
+    z-index: 10;
+  }
+
+  .menubar {
+    overflow: auto;
+    justify-content: start !important;
+  }
+
+  .main-section{
+    overflow: auto;
+    justify-content: start !important;
+  }
 }

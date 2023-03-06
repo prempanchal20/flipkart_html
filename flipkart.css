@@ -1,7 +1,9 @@
 .dropdown:hover .dropdown-menu{
     display: block;
 }
-
+*{
+    overflow-x: hidden;
+}
 nav div.search{
     flex-grow: 0.5;
 }
@@ -29,4 +31,12 @@ nav div.search{
 
 .image{
     height: 170px;
+}
+
+.cart{
+    min-width: 50px;
+}
+
+.{
+    min-width: 50px;
 }

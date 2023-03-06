@@ -8,7 +8,7 @@
     <link rel="icon" type="image/x-icon" href="/Images/flipkart.png">
     <title>Online Shopping Site for Mobiles, Electronics,..</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
@@ -16,7 +16,7 @@
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="flipkart.css">
+    <link rel="stylesheet" href="flipkart.css" />
 </head>
 
 <body>
@@ -29,12 +29,12 @@
                         class="flipkart d-block m-0 p-0">
                 </div>
 
-                <div class="search m-2 d-flex shadow bg-white">
+                <div class="search m-2 shadow bg-white position-relative">
                     <form class="w-100" role="search">
                         <input class="flex-grow-1 form-control rounded-0 w-100" type="search"
                             placeholder="Search for products, brands and more" aria-label="Search">
                     </form>
-                    <div class="d-flex align-item-center search-icon bg-white p-1 pe-3 pt-2">
+                    <div class="align-item-center search-icon bg-white p-1 pe-3 pt-2 position-absolute top-0">
                         <i class="fa-solid fa-magnifying-glass text-primary"></i>
                     </div>
                 </div>
@@ -42,8 +42,10 @@
                 <button class="navbar-toggler position-absolute top-0" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="text-white navbar-toggler-icon"></span>
+                    <!-- <span class="text-white navbar-toggler-icon"></span> -->
+                    <i class="bi bi-list text-white"></i>
                 </button>
+
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <div class="login d-flex justify-content-center align-items-center gap-3 ms-4">
@@ -51,7 +53,7 @@
                             type="button">Login
                         </button>
 
-                        <p class="text-white m-auto" style="width: 8rem;">Become a Seller</p>
+                        <p class="text-white seller" style="width: 8rem;">Become a Seller</p>
 
                         <ul class="dropdown text-white m-auto">
                             <a class="nav-link dropdown-toggle active more" href="#" id="navbarDropdown" role="button"
@@ -84,52 +86,52 @@
     <!-- Menubar -->
     <section class="shadow p-3 bg-body rounded">
         <div class="menubar container d-flex justify-content-evenly">
-            <div class="Grocery">
+            <div class="menubar-item">
                 <img src="Images/grocery.webp" alt="Grocery" width="64" height="64" />
                 <p>Grocery</p>
             </div>
 
-            <div class="Mobiles">
+            <div class="menubar-item">
                 <img src="Images/mobiles.webp" alt="Mobiles" width="64" height="64" />
                 <p>Mobiles</p>
             </div>
 
-            <div class="Clothes">
+            <div class="menubar-item">
                 <img src="Images/clothes.webp" alt="Clothes" width="64" height="64" />
                 <p>Fashion</p>
             </div>
 
-            <div class="Electronics">
+            <div class="menubar-item">
                 <img src="Images/laptop.webp" alt="Electronics" width="64" height="64" />
                 <p>Electronics</p>
             </div>
 
-            <div class="Home text-center">
+            <div class="menubar-item">
                 <img src="Images/home.webp" alt="Home" width="64" height="64" />
                 <p>Home</p>
             </div>
 
-            <div class="Appliances px-2">
+            <div class="menubar-item">
                 <img src="Images/electronics.webp" alt="Appliances" width="64" height="64" />
                 <p>Appliances</p>
             </div>
 
-            <div class="Travel px-2">
+            <div class="menubar-item px-2">
                 <img src="Images/flights.webp" alt="flights" width="64" height="64" />
                 <p>Travel</p>
             </div>
 
-            <div class="Top Offers">
+            <div class="menubar-item">
                 <img src="Images/top-offers.webp" alt="flights" width="64" height="64" />
                 <p>Top Offers</p>
             </div>
 
-            <div class="toys">
+            <div class="menubar-item">
                 <img src="Images/toys.webp" alt="toys" width="64" height="64" />
                 <p>Beauty, Toys & More</p>
             </div>
 
-            <div class="vehicle">
+            <div class="menubar-item">
                 <img src="Images/vehicle.webp" alt="vehicle" width="64" height="64" />
                 <p>Two Wheelers</p>
             </div>
@@ -138,11 +140,11 @@
     <div>
 
         <!-- Carousel -->
-        <div class="container-fluid ">
+        <div class="container-fluid">
             <div id="carousel" class="carousel container-fluid slide">
                 <div class="container-fluid carousel-inner justify-content-center mt-2 position-relative">
-                    <div class="carousel-item active w-100">
-                        <img src="Images/carosel1.webp" class="d-block w-100" alt="carousel1" />
+                    <div class="carousel-item active w-100 h-100">
+                        <img src="Images/carosel1.webp" class="d-block w-100 h-100" alt="carousel1" />
                     </div>
                     <div class="carousel-item">
                         <img src="Images/carosel2.webp" class="d-block w-100" alt="carousel2" />
@@ -168,18 +170,18 @@
         <section class="main-section container-fluid mt-4">
             <div class="deals-of-the-day deal-section d-flex w-100">
                 <div class="shadow deals-section-inner deals-head">
-                    <div class="main-seaction-title d-flex justify-content-between w-100">
-                        <div class="time d-flex">
-                            <h4>Deals of the Day <i class="bi bi-stopwatch text-danger"></i></h4>
-                            <p class="fs-5 fw-light text-muted">22:07:36 Left</p>
+                    <div class="main-seaction-title d-flex justify-content-between p-2">
+                        <div class="product-title">
+                            <h4>Deals of the Day</h4>
+                            <p class="text-muted">Shop Now!</p>
                         </div>
-                        <button type="button" class="btn btn-primary m-lg-1">VIEW ALL</button>
+                        <button type="button" class="button btn btn-primary">VIEW ALL</button>
                     </div>
 
                     <div class="d-flex overflow-auto">
                         <div class="card deals-card" style="border: 0rem;">
                             <div class="image w-auto m-auto d-flex align-items-center">
-                                <img src="Images/watch.webp" class="card-img-top w-50 m-auto" alt="watch">
+                                <img src="Images/watch.webp" class="card-img-top w-50 m-auto" alt="watch" />
                             </div>
 
                             <div class="card-body">
@@ -191,7 +193,7 @@
 
                         <div class="card deals-card" style=" border: 0rem; ">
                             <div class="image w-auto m-auto d-flex align-items-center ">
-                                <img src="Images/Temple.webp" class="card-img-top w-50 m-auto" alt="watch" />
+                                <img src="Images/Temple.webp" class="card-img-top w-50 m-auto" alt="Temple" />
                             </div>
                             <div class="card-body">
                                 <p class="card-text">Home Temples</p>
@@ -288,7 +290,7 @@
                     </div>
 
                     <div class="d-flex overflow-auto">
-                        <div class="card" style="border: 0rem;">
+                        <div class="card deals-card" style="border: 0rem;">
                             <div class="image w-auto m-auto d-flex align-items-center h-50">
                                 <img src="Images/harmonium.webp" class="card-img-top w-50 m-auto" alt="watch" />
                             </div>
@@ -299,7 +301,7 @@
                             </div>
                         </div>
 
-                        <div class="card" style=" border: 0rem; ">
+                        <div class="card deals-card" style=" border: 0rem; ">
                             <div class="image w-auto m-auto d-flex align-items-center h-50">
                                 <img src="Images/flutes.webp" class="card-img-top w-50 m-auto" alt="watch" />
                             </div>
@@ -310,7 +312,7 @@
                             </div>
                         </div>
 
-                        <div class="card" style="border: 0rem;">
+                        <div class="card deals-card" style="border: 0rem;">
                             <div class="image w-auto m-auto d-flex align-items-center h-50">
                                 <img src="Images/guitar.webp" class="card-img-top w-50 m-auto" alt="watch" />
                             </div>
@@ -321,7 +323,7 @@
                             </div>
                         </div>
 
-                        <div class="card" style=" border: 0rem;">
+                        <div class="card deals-card" style=" border: 0rem;">
                             <div class="image w-auto m-auto d-flex align-items-center h-50">
                                 <img src="Images/musical-accesories.webp" class="card-img-top w-50 m-auto"
                                     alt="watch" />
@@ -333,7 +335,7 @@
                             </div>
                         </div>
 
-                        <div class="card" style=" border: 0rem;">
+                        <div class="card deals-card" style=" border: 0rem;">
                             <div class="image w-auto m-auto d-flex align-items-center h-50">
                                 <img src="Images/microphone-accessories.webp" class="card-img-top w-50 m-auto"
                                     alt="watch" />
@@ -345,7 +347,7 @@
                             </div>
                         </div>
 
-                        <div class="card" style=" border: 0rem;">
+                        <div class="card deals-card" style=" border: 0rem;">
                             <div class="image w-auto m-auto d-flex align-items-center h-50">
                                 <img src="Images/accesories.webp" class="card-img-top w-50 m-auto" alt="watch" />
                             </div>
@@ -355,7 +357,7 @@
                                 <p class="text-muted">Now ₹999 only</p>
                             </div>
                         </div>
-                        <div class="card" style=" border: 0rem;">
+                        <div class="card deals-card" style=" border: 0rem;">
                             <div class="image w-auto m-auto d-flex align-items-center h-50">
                                 <img src="Images/accesories.webp" class="card-img-top w-50 m-auto" alt="watch" />
                             </div>
@@ -365,7 +367,7 @@
                                 <p class="text-muted">Now ₹999 only</p>
                             </div>
                         </div>
-                        <div class="card" style=" border: 0rem;">
+                        <div class="card deals-card" style=" border: 0rem;">
                             <div class="image w-auto m-auto d-flex align-items-center h-50">
                                 <img src="Images/accesories.webp" class="card-img-top w-50 m-auto" alt="watch" />
                             </div>
@@ -375,7 +377,7 @@
                                 <p class="text-muted">Now ₹999 only</p>
                             </div>
                         </div>
-                        <div class="card" style=" border: 0rem;">
+                        <div class="card deals-card" style=" border: 0rem;">
                             <div class="image w-auto m-auto d-flex align-items-center h-50">
                                 <img src="Images/accesories.webp" class="card-img-top w-50 m-auto" alt="watch" />
                             </div>
@@ -385,7 +387,7 @@
                                 <p class="text-muted">Now ₹999 only</p>
                             </div>
                         </div>
-                        <div class="card" style=" border: 0rem;">
+                        <div class="card deals-card" style=" border: 0rem;">
                             <div class="image w-auto m-auto d-flex align-items-center h-50">
                                 <img src="Images/accesories.webp" class="card-img-top w-50 m-auto" alt="watch" />
                             </div>
@@ -413,7 +415,7 @@
                     </div>
 
                     <div class="d-flex overflow-auto">
-                        <div class="card" style="border: 0rem;">
+                        <div class="card deals-card" style="border: 0rem;">
                             <div class="image w-auto m-auto d-flex align-items-center h-50">
                                 <img src="Images/holi1.webp" class="card-img-top w-50 m-auto" alt="watch" />
                             </div>
@@ -424,7 +426,7 @@
                             </div>
                         </div>
 
-                        <div class="card" style=" border: 0rem; ">
+                        <div class="card deals-card" style=" border: 0rem; ">
                             <div class="image w-auto m-auto d-flex align-items-center h-50">
                                 <img src="Images/holi2.webp" class="card-img-top w-50 m-auto" alt="watch" />
                             </div>
@@ -436,7 +438,7 @@
                         </div>
 
 
-                        <div class="card" style="border: 0rem;">
+                        <div class="card deals-card" style="border: 0rem;">
                             <div class="image w-auto m-auto d-flex align-items-center h-50">
                                 <img src="Images/holi3.webp" class="card-img-top w-50 m-auto" alt="watch" />
                             </div>
@@ -447,7 +449,7 @@
                             </div>
                         </div>
 
-                        <div class="card" style=" border: 0rem;">
+                        <div class="card deals-card" style=" border: 0rem;">
                             <div class="image w-auto m-auto d-flex align-items-center h-50">
                                 <img src="Images/holi4.webp" class="card-img-top w-50 m-auto" alt="watch" />
                             </div>
@@ -458,7 +460,7 @@
                             </div>
                         </div>
 
-                        <div class="card" style=" border: 0rem;">
+                        <div class="card deals-card" style=" border: 0rem;">
                             <div class="image w-auto m-auto d-flex align-items-center h-50">
                                 <img src="Images/holi5.webp" class="card-img-top w-50 m-auto" alt="watch" />
                             </div>
@@ -469,7 +471,7 @@
                             </div>
                         </div>
 
-                        <div class="card" style=" border: 0rem;">
+                        <div class="card deals-card" style=" border: 0rem;">
                             <div class="image w-auto m-auto d-flex align-items-center h-50">
                                 <img src="Images/holi6.webp" class="card-img-top w-50 m-auto" alt="watch" />
                             </div>
@@ -480,7 +482,7 @@
                             </div>
                         </div>
 
-                        <div class="card" style=" border: 0rem;">
+                        <div class="card deals-card" style=" border: 0rem;">
                             <div class="image w-auto m-auto d-flex align-items-center h-50">
                                 <img src="Images/holi6.webp" class="card-img-top w-50 m-auto" alt="watch" />
                             </div>
@@ -491,7 +493,7 @@
                             </div>
                         </div>
 
-                        <div class="card" style=" border: 0rem;">
+                        <div class="card deals-card" style=" border: 0rem;">
                             <div class="image w-auto m-auto d-flex align-items-center h-50">
                                 <img src="Images/holi6.webp" class="card-img-top w-50 m-auto" alt="watch" />
                             </div>
@@ -501,7 +503,6 @@
                                 <p class="text-muted">Now ₹999 only</p>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>

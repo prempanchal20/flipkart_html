@@ -24,6 +24,9 @@
   opacity: 0.3;
 }
 
+.seller{
+  width: 8rem;
+}
 .deals-head {
   width: 86%;
 }
@@ -62,6 +65,10 @@
 
 .cart {
   min-width: 50px;
+}
+
+.deals-card{
+  border: 0rem;
 }
 
 .deals-card {

@@ -24,14 +24,14 @@
   opacity: 0.3;
 }
 
-.deals-head{
+.deals-head {
   width: 86%;
 }
 
 .button {
   height: 38%;
 }
-.seller{
+.seller {
   margin: auto;
 }
 .card {
@@ -39,7 +39,7 @@
   border: 0rem !important;
 }
 
-.search{
+.search {
   flex-grow: 3;
 }
 
@@ -73,8 +73,13 @@
 .menubar-item {
   transition: transform 0.3s ease;
 }
-.menubar-item:hover{
+.menubar-item:hover {
   transform: scale(1.1);
+}
+
+.footer {
+  background-color: #172337;
+  color: white;
 }
 
 @media only screen and (max-width: 415px) {
@@ -118,33 +123,28 @@
     justify-content: start !important;
   }
 
-  .advertise{
+  .advertise {
     display: none !important;
   }
 
-  .deals-head{
+  .deals-head {
     width: 100%;
   }
 
-  .carousel{
+  .carousel {
     height: 100%;
     width: 100%;
     object-fit: cover;
   }
 
-  .more{
+  .more {
     margin-right: 75px;
-    
   }
-  .seller{
+  .seller {
     margin-right: 135px;
   }
 
-  .cart{
+  .cart {
     margin-right: 100px;
   }
-
-
 }
-
-

@@ -184,6 +184,8 @@
 
   .menubar-item img{
     width: 48px;
+    display: flex;
+    justify-content: space-between;
   }
 
   .menubar-item p{

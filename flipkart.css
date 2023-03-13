@@ -61,7 +61,7 @@
   right: 0;
 }
 
-.slider{
+.slider {
   width: 92vw;
   box-shadow: 3px 3px 10px 7px #ccc;
 }
@@ -143,10 +143,10 @@
     object-fit: cover;
   }
 
-  .slider{
+  .slider {
     margin-top: 2px;
   }
-  
+
   .navbar-collapse {
     position: absolute;
     background-color: #2874f0;
@@ -178,20 +178,35 @@
 
   .menubar {
     overflow: auto;
-    justify-content: start !important;
+    justify-content: left !important;
+    margin: 0px 5px;
+  }
+
+  .menubar-item img{
+    width: 48px;
+  }
+
+  .menubar-item p{
+    font-size: small;
   }
 
   .main-section {
     overflow: auto;
     justify-content: start !important;
+    font-size: small;
+  }
+
+  h4{
+    font-size: 18px;
   }
 
   .deal-section {
     width: 100%;
   }
 
-  .main-section .button{
+  .main-section .button {
     padding: 10px !important;
+    font-size: small;
   }
 
   .advertise {
@@ -218,5 +233,9 @@
 
   .cart {
     margin-right: 100px;
+  }
+
+  .footer {
+    display: flex;
   }
 }

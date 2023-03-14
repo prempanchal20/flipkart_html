@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar-toggler {
+  left: 2px;
+}
+
+.dropdown-menu {
+  left: -58px !important;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.main-section {
+  width: 92vw;
+  box-shadow: 3px 3px 10px 7px #ccc;
+}
+
+.form-control {
+  opacity: 0.9;
+}
+
+.seller {
+  width: 8rem;
+}
+.deals-head {
+  width: 86%;
+}
+
+.button {
+  height: 38%;
+}
+
+.deals-of-the-day {
+  width: 95%;
+}
+
+.deal-section {
+  width: 100%;
+}
+
+.seller {
+  margin: auto;
+}
+
+.card {
+  min-width: 14rem;
+  border: 0rem !important;
+}
+
+.search {
+  flex-grow: 3;
+}
+
+.search-icon {
+  right: 0;
+}
+
+.slider {
+  width: 92vw;
+  box-shadow: 3px 3px 10px 7px #ccc;
+}
+
+.login-btn {
+  width: 121px;
+  border: 0;
+  padding: 5px 10px;
+}
+
+.image {
+  height: 170px;
+}
+
+.cart {
+  min-width: 50px;
+}
+
+.advertise {
+  padding: 5px;
+  margin-left: 10px;
+}
+.advertise img {
+  height: 100%;
+}
+
+.deals-card {
+  border: 0rem;
+}
+
+.deals-card {
+  width: 200px !important;
+  text-align: center;
+}
+
+.deals-card .card-body p {
+  margin: 0;
+}
+.deals-head {
+  width: 83%;
+}
+
+.menubar-item {
+  transition: transform 0.3s ease;
+}
+
+.menubar-item:hover {
+  transform: scale(1.1);
+}
+
+.footer {
+  background-color: #172337;
+  color: white;
+}
+
+@media only screen and (max-width: 414px) {
+  .navbar {
+    min-height: 120px;
+  }
+
+  nav div.search {
+    position: relative;
+    top: 33px;
+    left: 0px;
+    width: 100%;
+  }
+
+  .title {
+    top: -15px;
+    left: 72px;
+    position: absolute;
+  }
+
+  .carousel-item {
+    height: 150px;
+  }
+
+  .carousel-item img {
+    object-fit: cover;
+  }
+
+  .slider {
+    margin-top: 2px;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    background-color: #2874f0;
+    top: -35px;
+    width: 110%;
+    padding: 20px;
+    z-index: 2;
+  }
+
+  .login {
+    flex-direction: column;
+  }
+
+  .toys {
+    display: none;
+  }
+
+  .beauty {
+    display: none;
+  }
+
+  .top {
+    display: none;
+  }
+
+  .navbar-toggler {
+    z-index: 10;
+  }
+
+  .menubar {
+    overflow: auto;
+    justify-content: left !important;
+    margin: 0px 5px;
+  }
+
+  .menubar-item img{
+    width: 48px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menubar-item p{
+    font-size: small;
+  }
+
+  .main-section {
+    overflow: auto;
+    justify-content: start !important;
+    font-size: small;
+  }
+
+  h4{
+    font-size: 18px;
+  }
+
+  .deal-section {
+    width: 100%;
+  }
+
+  .main-section .button {
+    padding: 10px !important;
+    font-size: small;
+  }
+
+  .advertise {
+    display: none !important;
+  }
+
+  .deals-head {
+    width: 100%;
+  }
+
+  .carousel {
+    width: 70%;
+    object-fit: cover;
+    margin-left: 0 !important;
+  }
+
+  .more {
+    margin-right: 75px;
+  }
+
+  .seller {
+    margin-right: 135px;
+  }
+
+  .cart {
+    margin-right: 100px;
+  }
+
+  .footer {
+    display: flex;
+  }
+}
